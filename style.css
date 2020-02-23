@@ -163,3 +163,12 @@ body {
    top:53px;
    left:72px;
 }
+
+.our-services{
+    background-color: #f2f2f2;
+
+}
+.our-services__item{
+    display: inline-block;
+    width: 33%;
+}
