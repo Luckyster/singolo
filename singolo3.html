@@ -10,28 +10,30 @@
     <section class="contacts">
         <div class="container">
             <h2 class="contacts__title">Get a Quote</h2>
-            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <form>
-                <input type="text" name="name" placeholder="Name (Required)">
-                <input type="email" name="email" placeholder="Email (Required)">
-                <input type="text" name="subject" placeholder="Subject">
-                <textarea name="describe" placeholder="Describe your project in detail..."></textarea>
-                <input type="submit">
-            </form>
-            <article class="contacts__wrapper">
-                <h3>Contact Information</h3>
-                <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. </p>
-                <address>Elm St. 14/05 Lost City </address>
-                <a href="tel:035283318635">03528 331 86 35</a>
-                <a href="mailto:info@singolo.com">info@singolo.com</a>
-            </article>
+            <p class="contacts__content">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <div class="contacts__container">
+                <form class="contacts__form">
+                    <input type="text" name="name" placeholder="Name (Required)" class="contacts__input">
+                    <input type="email" name="email" placeholder="Email (Required)" class="contacts__input">
+                    <input type="text" name="subject" placeholder="Subject" class="contacts__input">
+                    <textarea name="describe" placeholder="Describe your project in detail..." class="contacts__textarea"></textarea>
+                    <input type="submit" class="contacts__submit" value="submit">
+                </form>
+                <article class="contacts__wrapper contact-info">
+                    <h3 class="contact-info__title">Contact Information</h3>
+                    <p class="contact-info__content">Quisque hendrerit purus dapibus, ornare nibh vitae, viver-ra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
+                    <a class="contact-info__address" href="https://www.google.com/maps/search/Elm+St.+14%2F05+Lost+City/@53.8443776,27.5775488,13z">Elm St. 14/05 Lost City </address>
+                    <a class="contact-info__phone" href="tel:035283318635">03528 331 86 35</a>
+                    <a class="contact-info__email"href="mailto:info@singolo.com">info@singolo.com</a>
+                </article>
+            </div>
         </div>
     </section>
 </body>
-<footer>
-    <div class="container">
-        <small>© Copyright 2013 · by PSDchat.com</small>
-        <div class="footer__socials">
+<footer class="footer">
+    <div class="container footer__container">
+        <small class="footer__copyright">© Copyright 2013 · by PSDchat.com</small>
+        <div class="footer__socials socials">
             <a href="#"><i class="facebook"></i></a>
             <a href="#"><i class="googleplus"></i></a>
             <a href="#"><i class="twitter"></i></a>
