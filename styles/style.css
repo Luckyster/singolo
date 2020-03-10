@@ -136,6 +136,8 @@ body {
     margin-left: 20px;
     word-spacing: 2px; }
 .our-services__content p{
+  max-height: 67px;
+  overflow: hidden;
  text-align: justify }
   .our-services__title {
     font-weight: 900;

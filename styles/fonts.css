@@ -1,19 +1,19 @@
 @font-face {
   font-family: Lato;
   font-weight: 300;
-  src: url(../fonts/Lato-light.ttf); }
+  src: url(../assets/fonts/Lato-light.ttf); }
 
 @font-face {
   font-family: Lato;
   font-weight: 400;
-  src: url(../fonts/Lato-Regular.ttf); }
+  src: url(../assets/fonts/Lato-Regular.ttf); }
 
 @font-face {
   font-family: Lato;
   font-weight: 600;
-  src: url(../fonts/Lato-Bold.ttf); }
+  src: url(../assets/fonts/Lato-Bold.ttf); }
 
 @font-face {
   font-family: Lato;
   font-weight: 900;
-  src: url(../fonts/Lato-Black.ttf); }
+  src: url(../assets/fonts/Lato-Black.ttf); }
