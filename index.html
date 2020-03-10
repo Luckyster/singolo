@@ -158,8 +158,8 @@
             <p class="contacts__content">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             <div class="contacts__container">
                 <form class="contacts__form" action="./index.html" method="GET">
-                    <input type="text" name="name" placeholder="Name (Required)" class="contacts__input" pattern="([A-Za-z\sА-Яа-яЁё])+">
-                    <input type="email" name="email" placeholder="Email (Required)" class="contacts__input" pattern="([A-Za-z0-9._-])+@([A-Za-z0-9-_])+\.([a-z]){2,3}">
+                    <input type="text" name="name" placeholder="Name (Required)" class="contacts__input" pattern="([A-Za-z\sА-Яа-яЁё])+" required>
+                    <input type="email" name="email" placeholder="Email (Required)" class="contacts__input" pattern="([A-Za-z0-9._-])+@([A-Za-z0-9-_])+\.([a-z]){2,3}" required>
                     <input type="text" name="subject" placeholder="Subject" class="contacts__input" pattern="([A-Za-z0-9._-])+@([A-Za-z0-9-_])+\.([a-z]){2,3}">
                     <textarea name="describe" placeholder="Describe your project in detail..." class="contacts__textarea"></textarea>
                     <input type="submit" class="contacts__submit" value="submit">
