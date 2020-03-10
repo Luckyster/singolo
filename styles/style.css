@@ -78,9 +78,9 @@ body {
     height: 100%; }
   .slider__arrow {
     position: absolute;
-    width: 16px;
+    width: 16px; 
     height: 27px;
-    background-image: url("./assets/arrow.png");
+    background-image: url("../assets/images/arrow.png");
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.7;
